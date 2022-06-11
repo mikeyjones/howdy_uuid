@@ -3,8 +3,12 @@
 [![Package Version](https://img.shields.io/hexpm/v/howdy_uuid)](https://hex.pm/packages/howdy_uuid)
 [![Hex Docs](https://img.shields.io/badge/hex-docs-ffaff3)](https://hexdocs.pm/howdy_uuid/)
 
-A Gleam project
+## Disclaimer
 
+This is a very slightly modified version of [gleam_uuid](https://gitlab.com/greggreg/gleam_uuid).
+The reason this exists is because gleam_uuid seems to have been abandonded, and the howdy 
+webserver needed a uuid parser. If the auther of gleam_uuid picks up the project then this library
+will be depreciated in favour of that project.
 ## Quick start
 
 ```gleam
